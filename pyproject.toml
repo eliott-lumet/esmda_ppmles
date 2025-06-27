@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+
+[project]
+name = "esmda_ppmles"
+readme = "README.md"
+requires-python = ">=3.7"
+license = "MIT"
+version = "0.1"
+dependencies = [
+    "h5py",
+    "ipykernel",
+    "joblib",
+    "numpy",
+    "openturns",
+    "scipy",
+]
